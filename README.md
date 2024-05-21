@@ -1,6 +1,8 @@
 # SafeHand
 SafeHand is application created for hackaton Tech says NO. It is designed to assist women who are victims of physicall or verbal abuse by allowing them to send an emergency alert to their loved ones. It is based around the concept of having a concealed physicall device that can be operated easily in time of need, by simply pressing a button 3 times in a row. When button gets pressed emergency contacts will get a whatsapp message, additionaly a push notification if they are users of our platform, that will lead them to victims location.
 
+<img src="https://github.com/Obradowski1389/tech_says_no/blob/master/documentation/home.jpg" alt="app homepage" height="500"/>
+
 ## Prerequisites
 Before running this application, ensure you have the following installed:
 
