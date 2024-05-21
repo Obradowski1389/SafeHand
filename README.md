@@ -14,13 +14,6 @@ Before running this application, ensure you have the following installed:
 <img src="https://github.com/Obradowski1389/tech_says_no/blob/master/documentation/callmebot.jpg" alt="callmebot" height="500"/>
 
 ## Setup
-### Flutter Setup:
-- Clone this repository.
-- Navigate to the tech_says_no_flutter/ directory and run the following command to fetch the project dependencies:
-```
-flutter pub get
-```
-
 ### Docker Configuration:
 Docker configuration files are provided in the tech_says_no_flask/ directory.
 Build the Docker image using 
@@ -55,6 +48,25 @@ source venv/bin/activate
 pip install -r requirements.txt
 sudo python main.py
 ```
+
+### Flutter Setup:
+- Clone this repository.
+- Navigate to the tech_says_no_flutter/ directory and run the following command to fetch the project dependencies:
+```
+flutter pub get
+```
+
+### Google Maps Setup:
+- Obtain a Google maps API key
+- Follow further [instructions](https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#3) for setup.
+
+### Firebase Admin SDK Setup
+- Download the service account JSON file from Firebase project settings and add it to tech_says_no_flask/ directory.
+- Update the path to JSON in tech_says_no_flask/app.py:
+```
+cred = credentials.Certificate("path/to/techsaysno-firebase-adminsdk-tnj21-d26f5188f5.json")
+```
+  
 
 ## Usage
 After setting up Firebase and configuring the Flutter app, you can run the app on your local development environment using 
